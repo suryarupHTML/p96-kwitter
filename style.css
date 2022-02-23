@@ -1,0 +1,100 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+body
+{
+background-image: linear-gradient(to bottom, coral, burlywood, wheat);
+}
+
+#h1-username {
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	font-size: medium;
+	font-style: italic;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.login_div
+{
+	background: rgba(245, 203, 203, 0.8);
+	float: none;
+	border-radius: 15px;
+}
+
+#login_button {
+	width: auto;
+	border-radius: 20px;
+	background-color: rgb(34, 139, 34);
+}
+
+#btn-add_room {
+	width: auto;
+	border-radius: 20px;
+	background-color: rgb(34, 139, 34);
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#logout{
+	font-size: 20px;
+	font-weight: bold;
+	float: right;
+	background-color: red;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	background: rgba(245, 203, 203, 0.8);
+	float: none;
+	border-radius: 15px;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
